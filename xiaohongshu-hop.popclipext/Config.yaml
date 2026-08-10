@@ -1,0 +1,12 @@
+name: 小红书 Hop
+icon: file:icon.png
+identifier: com.ajanlab.popclip.xiaohongshu-hop
+popclip version: 4631    # 4631 = PopClip 2023.11
+version: 1.0.5
+description: 选中文本 → 小红书网页版搜索；选中小红书链接 → 直达原文页。
+
+actions:
+  - title: 小红书
+    icon: file:icon.png
+    requirements: [text]
+    shell script file: Source/xiaohongshu-hop.sh

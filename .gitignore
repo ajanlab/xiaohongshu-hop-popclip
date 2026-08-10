@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+__MACOSX/
+._*
+
+# Editor
+*.swp
+*.swo
+*~
+
+# PopClip build artifact (published via GitHub Releases)
+*.popclipextz
+
+# Python
+__pycache__/
+*.pyc
+
+# Generated assets (rebuilt by assets/make_icon.py)
+assets/xhs-logo-1024.svg
+assets/xhs-logo-1024.png
